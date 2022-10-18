@@ -5,13 +5,14 @@ import { PATHS } from 'src/routes/paths';
 // layouts
 import MainLayout from 'src/layouts/Main';
 // components
+import LoadingScreen from 'src/components/LoadingScreen';
 import PageTransition from 'src/components/PageTransition';
 
 // ----------------------------------------------------------------------
 
 const Loadable = (Component: ElementType) => (props: any) => {
   return (
-    <Suspense fallback={<></>}>
+    <Suspense fallback={<LoadingScreen />}>
       <PageTransition>
         <Component {...props} />
       </PageTransition>
