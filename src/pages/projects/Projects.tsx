@@ -95,7 +95,7 @@ export default function Projects() {
                   </Typography>
                 </Stack>
                 <Typography variant="subtitle1" color="text.secondary" align="justify">
-                  Posso dizer que esse é o maior projeto que eu fiz e foi onde utilizei muitos dos
+                  Posso dizer que esse é o maior projeto que fiz e foi o qual utilizei muitos dos
                   conhecimentos que adquiri ao longo dos anos, que juntos formaram uma aplicação
                   completa.
                 </Typography>
@@ -117,7 +117,7 @@ export default function Projects() {
 
                 <Typography variant="subtitle1" color="text.secondary" align="justify">
                   Foi desenvolvido tendo como alvo pequenos comércios que precisam de um maior
-                  controle de suas vendas e estoque. É um sistema simples, eficiênte e acessível.
+                  controle de suas vendas e estoque. É um sistema simples, eficiente e acessível.
                 </Typography>
 
                 <Card sx={{ p: 3, my: 3 }} variant="outlined">
@@ -156,7 +156,7 @@ export default function Projects() {
                 <br />
 
                 <Typography variant="subtitle1" color="text.secondary" align="justify">
-                  O backend roda dentro de um <strong>container Docker</strong> que possíbilita,
+                  O backend roda dentro de um <strong>container Docker</strong> que possibilita,
                   dentro do servidor, utilizar VMs que apenas executam quando necessário (Cloud
                   Run). Também apliquei princípios <strong>SOLID</strong> para a melhor organização
                   e manutenção do código.
